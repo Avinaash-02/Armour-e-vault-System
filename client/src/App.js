@@ -28,7 +28,7 @@ function App() {
                 const signer = provider.getSigner();
                 const address = await signer.getAddress();
                 setAccount(address);
-                let contractAddress = "0xc6fe741A9AA7eE2855A10eac68154DE1e9019308";
+                let contractAddress = "0xf2f17C43D4039163bAb36FB7c6dBA2FF95D7c685";
 
                 const contract = new ethers.Contract(
                     contractAddress,
@@ -66,7 +66,7 @@ function App() {
         <
         h1 style = {
             { color: "white" }
-        } > Armour E- vault < /h1> <
+        } > Armour E - vault < /h1> <
         div class = "bg" > < /div> <
         div class = "bg bg2" > < /div> <
         div class = "bg bg3" > < /div>
