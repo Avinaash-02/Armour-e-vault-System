@@ -4,38 +4,38 @@ This project facilitates **decentralized image upload and sharing** on the block
 
 ---
 
-## **# Pinata Server**
+## **Pinata Server**
 
 - **Pinata Blockchain server** is used for handling transactions and ensuring **secondary hashing** for enhanced security, particularly for sensitive documents.
 
 ---
 
-## **# Hardhat**
+## **Hardhat**
 
 - **Hardhat version v.23** is used for the generation of hash values. We leverage **SHA hashing** algorithms to ensure more secure transactions.
 
 ---
 
-## **# Solidity**
+## **Solidity**
 
 - Basic **Solidity** code for **smart contract transactions**, enabling users to interact with the blockchain and manage file uploads securely.
 
 ---
 
-## **# Metamask**
+## **Metamask**
 
 - **Metamask** is a Chrome extension used as a **crypto wallet**. It allows users to perform blockchain transactions directly, bypassing the need for third-party sandbox versions.
 
 ---
 
-## **# Research on How Polygon Works**
+## **Research on How Polygon Works**
 
 - Developers using **Polygon Mumbai** are encouraged to migrate to **Amoy** for continued testing and development. The **Amoy testnet** promises **improved scalability** and **lower gas fees**, offering benefits for developers working on blockchain applications.
 - **Migration steps**: Developers must create a new app on the **Amoy network** via the **Alchemy dashboard**, update their **API URLs**, deploy test contracts, and adjust their **testing environments** accordingly.
 
 ---
 
-## **# ALCHEMY - WEB3, AGGREGATED**
+## **ALCHEMY - WEB3, AGGREGATED**
 
 - **Alchemy** provides a platform to interact with blockchain applications easily, helping developers to scale and manage decentralized applications (dApps).
 
@@ -46,3 +46,6 @@ This project facilitates **decentralized image upload and sharing** on the block
 1. Install dependencies:
    ```bash
    npm install
+2.Deploy HardHat 
+   ```bash
+   npx hardhat run scripts/deploy.js --network <network-name>
