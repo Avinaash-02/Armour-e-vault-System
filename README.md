@@ -49,7 +49,7 @@ This project facilitates **decentralized image upload and sharing** on the block
 2.Deploy HardHat 
    ```bash
    npx hardhat run scripts/deploy.js --network <network-name>
-3.cd Change Directory
+3.Change Directory
    ```bash
    cd client
 4.Start the Live Website
