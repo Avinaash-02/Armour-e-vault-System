@@ -1,19 +1,48 @@
-# Armour E-vault Decentralized Blockchain Storage System 
-This project facilitates decentralized image upload and sharing on the blockchain using Solidity for the smart contract and React for the front-end interface. It enables users to securely upload images to IPFS (InterPlanetary File System) and share access with specified users through smart contract functionality not only Files also application can be shared based ont the server.
+# **Armour E-Vault Decentralized Blockchain Storage System**
 
-#Pinate Server
-Using the Pinata Blockchain server for transaction and ensure the secondary hashing is more secure for the sensitive documents
+This project facilitates **decentralized image upload and sharing** on the blockchain using **Solidity** for the smart contract and **React** for the front-end interface. It enables users to securely upload images to **IPFS** (InterPlanetary File System) and share access with specified users through smart contract functionality. Not only can files be uploaded, but applications can also be shared based on the server.
 
-#Hardhat 
-Hardhat version v.23 used for the generation of hash values.Using SHA we have enhanced the concept of hashing
+---
 
-#Solidity
-Basic Solidity code for transaction
+## **# Pinata Server**
 
-#Metamask
-An chrome Extension used as a crypto wallet which is utilized here for making transactions rather than using a third-party sandbox versions
+- **Pinata Blockchain server** is used for handling transactions and ensuring **secondary hashing** for enhanced security, particularly for sensitive documents.
 
-#Research on how the Ploygon works 
-Developers using Polygon Mumbai are encouraged to migrate to Amoy to continue their testing and development processes. Amoy promises improved scalability and lower gas fees, offering benefits for developers working on blockchain applications.To migrate, developers need to create a new app on the Amoy network via the Alchemy dashboard, update their API URLs, deploy test contracts, and adjust their testing environments accordingly​
-ALCHEMY
-WEB3, AGGREGATED.
+---
+
+## **# Hardhat**
+
+- **Hardhat version v.23** is used for the generation of hash values. We leverage **SHA hashing** algorithms to ensure more secure transactions.
+
+---
+
+## **# Solidity**
+
+- Basic **Solidity** code for **smart contract transactions**, enabling users to interact with the blockchain and manage file uploads securely.
+
+---
+
+## **# Metamask**
+
+- **Metamask** is a Chrome extension used as a **crypto wallet**. It allows users to perform blockchain transactions directly, bypassing the need for third-party sandbox versions.
+
+---
+
+## **# Research on How Polygon Works**
+
+- Developers using **Polygon Mumbai** are encouraged to migrate to **Amoy** for continued testing and development. The **Amoy testnet** promises **improved scalability** and **lower gas fees**, offering benefits for developers working on blockchain applications.
+- **Migration steps**: Developers must create a new app on the **Amoy network** via the **Alchemy dashboard**, update their **API URLs**, deploy test contracts, and adjust their **testing environments** accordingly.
+
+---
+
+## **# ALCHEMY - WEB3, AGGREGATED**
+
+- **Alchemy** provides a platform to interact with blockchain applications easily, helping developers to scale and manage decentralized applications (dApps).
+
+---
+
+## **Usage**
+
+1. Install dependencies:
+   ```bash
+   npm install
