@@ -48,4 +48,4 @@ This project facilitates **decentralized image upload and sharing** on the block
    npm install
 2.Deploy HardHat 
    ```bash
-   npx hardhat run scripts/deploy.js --network <network-name>
+   npx hardhat run scripts/deploy.js --network <network-name> #Your Network Name
